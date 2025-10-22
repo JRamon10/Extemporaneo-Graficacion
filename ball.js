@@ -3,7 +3,6 @@ class Ball {
     this.level = level;
     this.reset();
   }
-
   reset(levelOverride = null) {
     this.level = levelOverride ?? this.level;
     this.x = width / 2;
