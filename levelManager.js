@@ -62,9 +62,9 @@ class LevelManager {
         this.initLevel(this.currentLevel);
       } else {
         noLoop();
-        textSize(32);
+        textSize(30);
         fill(255);
-        text('¡Ganaste!', width / 2 - 80, height / 2);
+        text('¡Ganaste', width / 2 - 80, height / 2);
       }
     }
   }
